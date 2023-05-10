@@ -1,0 +1,18 @@
+.column{
+    display: flex;
+    flex-direction: column;
+  }
+
+.field{
+    resize: none; /* Optional: prevent textarea from being resized by user */
+    overflow-y: auto; /* Show vertical scrollbar when content exceeds max-height */
+    height: 100px;
+min-width: 98% ;
+border-bottom: 2px solid black;
+border-left: none;
+border-right: none;
+border-top: none;
+  }
+  .field:focus{
+    outline: none;
+  }
